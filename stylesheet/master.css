@@ -251,7 +251,8 @@ h1 {
   top: 65vh;
 }
 
-input[type="text"] {
+input[type="text"],
+select {
   display: block;
   width: 470px;
   position: relative;
@@ -263,6 +264,7 @@ input[type="text"] {
   border-bottom: 2px solid white;
   background-color: inherit;
   color: white;
+
 }
 
 
@@ -279,6 +281,9 @@ input[type="text"] {
   cursor: pointer;
 }
 
+::-webkit-input-placeholder {
+   color: white;
+}
 
 .form p {
   text-align: center;
