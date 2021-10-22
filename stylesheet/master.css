@@ -228,3 +228,9 @@ h1 {
   left: 68.5vh;
   top: 60.6vh;
 }
+
+.end {
+  background: linear-gradient(180deg, #000000 0%, #E83A22 51.04%, #E3D8AB 92.19%);
+  position: relative;
+  height: 100vh;
+}
