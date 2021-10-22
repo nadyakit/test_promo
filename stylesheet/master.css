@@ -140,14 +140,17 @@ h1 {
 }
 .blue {
   background-color: #8EA5EB;
-  display: inline-block;
+  display: relative;
   width: 100vw;
   height: 100vh;
 }
 
+.fig {
+  text-align: center;
+  display: block;
+  margin-top: 4.5vh;
+
+}
 .blue_pic {
   width: 80%;
-  position: relative;
-  /* text-align: center; */
-  left: 20vh;
 }
