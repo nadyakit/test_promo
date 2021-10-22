@@ -140,7 +140,7 @@ h1 {
 .blue {
   background-color: #8EA5EB;
   /* position: absolute; */
-  display: block;
+  display: inline-block;
   width: 100vw;
   height: 100vh;
 }
