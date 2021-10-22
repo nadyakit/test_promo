@@ -114,18 +114,19 @@ h1 {
 }
 .purple {
   background-color: #E2B8E6;
-  display: inline-block;
+  /* display: inline-block; */
+  position: relative;
   height: 121vh;
   width: 100vw;
 }
 .brown {
-  position: relative;
+  position: absolute;
   top: 5.8vh;
   width: 100vw;
 }
 .second_text {
   position: relative;
-  top: -100vh;
+  top: 18vh;
   border-radius: 25px;
   max-width: 540px;
   left: 20vh;
@@ -139,8 +140,14 @@ h1 {
 }
 .blue {
   background-color: #8EA5EB;
-  /* position: absolute; */
   display: inline-block;
   width: 100vw;
   height: 100vh;
+}
+
+.blue_pic {
+  width: 80%;
+  position: relative;
+  /* text-align: center; */
+  left: 20vh;
 }
