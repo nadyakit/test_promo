@@ -292,3 +292,22 @@ select {
   font-weight: bold;
   margin-bottom: 15px;
 }
+
+.end_pic {
+  width: 88vh;
+  position: absolute;
+  left: 57vh;
+  top: 52vh;
+}
+
+.text_end {
+  position: absolute;
+  line-height: 44px;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 99;
+  width: 785px;
+  left: 59vh;
+  top: 53.5vh;
+}
