@@ -239,3 +239,51 @@ h1 {
  position: absolute;
  width: 100vw;
 }
+
+.form {
+  display: flex;
+  z-index: 99;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  top: 65vh;
+}
+
+input[type="text"] {
+  display: block;
+  width: 470px;
+  position: relative;
+  margin: 5px auto 10px;
+  height: 30px;
+  padding: 0 10px;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: inherit;
+  color: white;
+}
+
+.send {
+  background: #8EA5EB;
+  border-radius: 35px;
+  color: white;
+  border: none;
+  height: 57px;
+  font-size: 24px;
+  font-weight: bold;
+  width: 15vw;
+  margin: 30px auto 50px;
+  cursor: pointer;
+
+}
+
+
+.form p {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
