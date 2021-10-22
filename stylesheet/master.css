@@ -234,3 +234,8 @@ h1 {
   position: relative;
   height: 100vh;
 }
+
+.gradient_last {
+ position: absolute;
+ width: 100vw;
+}
