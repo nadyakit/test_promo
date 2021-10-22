@@ -157,14 +157,14 @@ h1 {
 }
 
 .text_blue1 {
-  left: 28vh;
+  left: 29vh;
   z-index: 99;
-  top: 33vh;
+  top: 33.5vh;
   position: absolute;
 }
 
 .text_blue1 img {
-  width: 15.5vw;
+  width: 14vw;
 }
 
 .blue p {
@@ -184,15 +184,47 @@ h1 {
 .text_blue2 {
   position: absolute;
   z-index: 99;
-  left: 63vh;
-  top: 30vh;
+  left: 63.5vh;
+  top: 31vh;
 }
 
 .text_blue2 img {
-  width: 15vw;
+  width: 14vw;
 }
 
 .second {
   left: 65vh;
   top: 32.5vh;
+}
+
+.text_blue3 {
+  position: absolute;
+  z-index: 99;
+  left: 39.5vh;
+  top: 54.5vh;
+}
+
+.text_blue3 img {
+  width: 12vw;
+}
+
+.third {
+  left: 41vh;
+  top: 56.6vh;
+}
+
+.text_blue4 {
+  position: absolute;
+  z-index: 99;
+  left: 67vh;
+  top: 59vh;
+}
+
+.text_blue4 img {
+  width: 16vw;
+}
+
+.fourth {
+  left: 68.5vh;
+  top: 60.6vh;
 }
