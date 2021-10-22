@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
+@import "reset.css";
+
+html {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+ position: absolute;
+ z-index: 10;
+ display: inline-flex;
+ justify-content: space-between;
+ width: 100%;
+ max-width: 1850px;
+ margin: auto;
+
+}
+
+.menu {
+  display: block;
+  box-sizing: border-box;
+  margin-left: 40px;
+}
+
+.menu a, .logo a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  padding: 0 15px;
+  line-height: 90px;
+}
+
+.gradient {
+  display: inline-block;
+  background: linear-gradient(#291A15 2%, #7494D3 53%, #E2B8E6 100%);
+  height: 100vh;
+}
+
+.oval1 {
+  position: relative;
+  height: 68%;
+  width: 68%;
+  border-radius: 50%;
+  background: #FC4A27;
+  transform: rotate(37.78deg);
+  left: 76vh;
+  top: 16vh;
+}
+
+.oval2 {
+  position: relative;
+  border-radius: 50%;
+  background: #FC4A27;
+  transform: rotate(140deg);
+  top: -35.8vh;
+  height: 55.2%;
+  left: -9vh;
+  width: 52.8%;
+}
+
+.oval3 {
+  position: relative;
+  border-radius: 50%;
+  background: #FC4A27;
+  top: -58vh;
+  height: 35%;
+  left: 65.6vh;
+  width: 29%;
+}
+
+.text1 {
+  position: relative;
+  top: -138vh;
+  height: 40%;
+  width: 46%;
+  left: 20vh;
+}
+
+h1 {
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 44px;
+}
+
+.first_h1 {
+  position: relative;
+  width: 860px;
+  top: -165.5vh;
+  left: 22.5vh;
+}
+
+.text2 {
+  position: relative;
+  top: -180vh;
+  height: 50%;
+  width: 40%;
+  left: 45vh;
+}
+
+.first_h2 {
+  position: relative;
+  width: 800px;
+  top: -210vh;
+  left: 47vh;
+}
+.purple {
+  background-color: #E2B8E6;
+  display: inline-block;
+  height: 121vh;
+  width: 100vw;
+}
+.brown {
+  position: relative;
+  top: 5.8vh;
+  width: 100vw;
+}
+.second_text {
+  position: relative;
+  top: -100vh;
+  border-radius: 25px;
+  max-width: 540px;
+  left: 20vh;
+  background-color: white;
+}
+.second_text p {
+  padding: 15px 15px;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: bold;
+}
+.blue {
+  background-color: #8EA5EB;
+  /* position: absolute; */
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
